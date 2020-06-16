@@ -1,0 +1,240 @@
+@media screen and (max-width: 355px) {
+
+  .header-bottom-icons-left-container {
+    padding-bottom: 1rem;
+  }
+
+  header .home-search {
+    margin: 1rem;
+  }
+
+  form {
+    margin: 0 auto;
+  }
+
+  .browse-our-shoes-txt-wrapper {
+    display: flex;
+    flex-flow: column wrap;
+    margin-bottom: 0;
+  }
+
+  .browse-our-shoes-txt-wrapper span {
+    text-align: right;
+    padding: 1rem 4.7rem 0 0;
+  }
+
+  .browse-dropdown {
+    margin-top: 3rem;
+  }
+}
+
+@media screen and (max-width: 410px) {
+
+  .hide-icons-top-mobile {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 420px) {
+
+  .about-container-letha {
+    flex-direction: column;
+  }
+
+  #about-us,
+  #about-leather {
+    padding-top: 1rem;
+  }
+
+  .footer-container {
+    flex-direction: column;
+  }
+
+  .footer-container div {
+    margin-top: 2rem;
+  }
+
+  .footer-container .logo-footer-container {
+    margin: 0 0 2rem 0;
+  }
+}
+
+@media screen and (max-width: 476px) {
+
+  .browse-occasion-sale-trends-container .browse-occasion-sale-trends-text-on-img {
+    font-size: 3.6rem;
+  }
+}
+
+@media screen and (min-width: 500px) {
+
+  .nav-mobile {
+    display: none !important;
+  }
+
+  .nav-desktop {
+    display: block !important;
+  }
+
+  .browse-occasion-sale-trends-container .home-text-we-have {
+    font-size: 4rem;
+  }
+}
+
+@media screen and (min-width: 650px) {
+
+  .cart-mobile {
+    display: none !important;
+  }
+
+  .cart-desktop {
+    display: contents;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
+  .cart-desktop-choose-size {
+    min-width: 7rem;
+  }
+
+  .cart-desktop-container {
+    display: flex;
+  }
+
+  .cart-shoe-name {
+    padding: 1rem;
+    width: 14rem;
+  }
+
+  .cart-choose {
+    width: 9rem;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .cart-container .cart-items-container .cart-picture {
+    max-width: 13rem;
+  }
+}
+
+@media screen and (max-width: 763px) {
+
+  .dropdown-wrapper-mobile {
+    width: 100%;
+    justify-content: flex-end;
+  }
+}
+
+@media screen and (min-width: 764px) {
+
+  .index-top-img-2 h3 {
+    font-size: 5rem;
+  }
+
+  .product-information-container {
+    width: 100%;
+    max-width: 110rem;
+    display: flex;
+    flex-flow: row wrap;
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+
+  .product-information-container div {
+    min-width: 10rem;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .product-information-container .all-pics-container {
+    max-width: 55rem;
+  }
+
+  .desktop-product-information-wrapper {
+    flex-flow: row;
+  }
+
+  .about-shoe-container {
+    width: 100%;
+    max-width: 10rem;
+    margin-top: 0;
+  }
+
+  .product-information-container .product-information-title-price {
+    padding-top: 0;
+  }
+
+  .desktop-product-information-divs {
+    width: 100%;
+    max-width: 25rem !important;
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  .product-information-button-container {
+    margin-top: 0 !important;
+    align-self: flex-end;
+  }
+
+  .desktop-dropdown {
+    flex-flow: row;
+    width: 100%;
+  }
+
+  .padding-left-right {
+    padding: 0 2rem;
+  }
+
+  .product-information-shoe-name {
+    font-size: 4rem !important;
+  }
+}
+
+@media screen and (max-width: 787px) {
+
+  .giftcard-cart-wrapper .cart-giftcard-container-left {
+    flex-flow: column wrap;
+  }
+
+  .giftcard-quantity {
+    margin-bottom: 1rem;
+  }
+
+  .mobile-stretch {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1195px) {
+
+  .cart-total-sum-container {
+    padding-top: 0 !important;
+  }
+}
+
+@media screen and (max-width: 1195px) {
+
+  .cart-container .cart-total-sum-container {
+    max-width: 50rem;
+  }
+
+  .product-information-button-container {
+    width: 100%;
+    max-width: 50rem;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+
+  .browse-occasion-sale-trends-container {
+    margin-bottom: 4rem;
+  }
+
+  .browse-occasion-sale-trends-flex {
+    padding-bottom: 5rem;
+  }
+}
+
+/*# sourceMappingURL=responsive.css.map */

@@ -1,0 +1,943 @@
+{
+  "results": [{
+      "id": 1,
+      "name": "Hardy Hiker",
+      "description": "For those who enjoy the outdoors, the Hardy Hiker is for you. <br /> <br /> This trendy boot is made from strong, durable leather and utilises the latest sole technology to ensure a comfortable fit. <br /> <br /> Whether you wear it while exploring the city or heading into the hills, this boot is the perfect accessory for the rugged, chic look.",
+      "path": "img/browse/boots/id-1/1.jpeg",
+      "price": 1100,
+      "stock": 2,
+      "type": "boots",
+      "trend": "gore-tex",
+      "sale": 20,
+      "occasion": "travel",
+      "stars": 4.1,
+      "picturecollection": [{
+        "picture": {
+          "path": "img/browse/boots/id-1/1.jpeg"
+        }
+      }, {
+        "picture": {
+          "path": "img/browse/boots/id-1/2.jpeg"
+        }
+      }, {
+        "picture": {
+          "path": "img/browse/boots/id-1/3.jpeg"
+        }
+      }, {
+        "picture": {
+          "path": "img/browse/boots/id-1/4.jpeg"
+        }
+      }, {
+        "picture": {
+          "path": "img/browse/boots/id-1/5.jpeg"
+        }
+      }, {
+        "picture": {
+          "path": "img/browse/boots/id-1/6.jpeg"
+        }
+      }, {
+        "picture": {
+          "path": "img/browse/boots/id-1/7.jpeg"
+        }
+      }, {
+        "picture": {
+          "path": "img/browse/boots/id-1/8.jpeg"
+        }
+      }, {
+        "picture": {
+          "path": "img/browse/boots/id-1/9.jpeg"
+        }
+      }, {
+        "picture": {
+          "path": "img/browse/boots/id-1/10.jpeg"
+        }
+      }, {
+        "picture": {
+          "path": "img/browse/boots/id-1/11.jpeg"
+        }
+      }, {
+        "picture": {
+          "path": "img/browse/boots/id-1/12.jpeg"
+        }
+      }],
+      "colors": [{
+        "color": {
+          "color": "black"
+        }
+      }, {
+        "color": {
+          "color": "brown"
+        }
+      }],
+      "sizes": [{
+        "size": {
+          "size": 41
+        }
+      }, {
+        "size": {
+          "size": 44
+        }
+      }]
+    },
+    {
+      "id": 2,
+      "name": "Bashful Brogue",
+      "description": "Our Bashful Brogue is one of our most popular shoes. <br /> <br /> It is perfect as formal wear or for office use. Its comfortable sole makes it perfect for all day wear. The brogue is studded using our unique pattern.",
+      "path": "img/browse/boots/id-2/1.jpeg",
+      "price": 2300,
+      "stock": 4,
+      "type": "boots",
+      "trend": "gore-tex",
+      "sale": false,
+      "occasion": "outdoors",
+      "stars": 4.8,
+      "picturecollection": [{
+        "picture": {
+          "path": "img/browse/boots/id-2/1.jpeg"
+        }
+      }, {
+        "picture": {
+          "path": "img/browse/boots/id-2/2.jpeg"
+        }
+      }, {
+        "picture": {
+          "path": "img/browse/boots/id-2/3.jpeg"
+        }
+      }, {
+        "picture": {
+          "path": "img/browse/boots/id-2/4.jpeg"
+        }
+      }, {
+        "picture": {
+          "path": "img/browse/boots/id-2/5.jpeg"
+        }
+      }, {
+        "picture": {
+          "path": "img/browse/boots/id-2/6.jpeg"
+        }
+      }, {
+        "picture": {
+          "path": "img/browse/boots/id-2/7.jpeg"
+        }
+      }, {
+        "picture": {
+          "path": "img/browse/boots/id-2/8.jpeg"
+        }
+      }, {
+        "picture": {
+          "path": "img/browse/boots/id-2/9.jpeg"
+        }
+      }, {
+        "picture": {
+          "path": "img/browse/boots/id-2/10.jpeg"
+        }
+      }, {
+        "picture": {
+          "path": "img/browse/boots/id-2/11.jpeg"
+        }
+      }, {
+        "picture": {
+          "path": "img/browse/boots/id-2/12.jpeg"
+        }
+      }],
+      "colors": [{
+        "color": {
+          "color": "black"
+        }
+      }, {
+        "color": {
+          "color": "brown"
+        }
+      }],
+      "sizes": [{
+        "size": {
+          "size": 41
+        }
+      }, {
+        "size": {
+          "size": 45
+        }
+      }]
+    },
+    {
+      "id": 3,
+      "name": "Nice and Easy",
+      "description": "Perfect for every occasion, Nice and Easy is the perfect all-rounder to ensure you're always looking at the top of your game. <br /> <br /> It's easy to wear and maintain and will be the perfect accompaniment for after dinner drinks, an interview, or even your next date.",
+      "path": "img/browse/boots/id-3/1.jpeg",
+      "price": 700,
+      "stock": 5,
+      "type": "boots",
+      "trend": "gore-tex",
+      "sale": false,
+      "occasion": "outdoors",
+      "stars": 4.6,
+      "picturecollection": [{
+        "picture": {
+          "path": "img/browse/boots/id-3/1.jpeg"
+        }
+      }, {
+        "picture": {
+          "path": "img/browse/boots/id-3/2.jpeg"
+        }
+      }, {
+        "picture": {
+          "path": "img/browse/boots/id-3/3.jpeg"
+        }
+      }, {
+        "picture": {
+          "path": "img/browse/boots/id-3/4.jpeg"
+        }
+      }, {
+        "picture": {
+          "path": "img/browse/boots/id-3/5.jpeg"
+        }
+      }, {
+        "picture": {
+          "path": "img/browse/boots/id-3/6.jpeg"
+        }
+      }, {
+        "picture": {
+          "path": "img/browse/boots/id-3/7.jpeg"
+        }
+      }],
+      "colors": [{
+        "color": {
+          "color": "black"
+        }
+      }, {
+        "color": {
+          "color": "brown"
+        }
+      }, {
+        "color": {
+          "color": "gray"
+        }
+      }],
+      "sizes": [{
+        "size": {
+          "size": 41
+        }
+      }, {
+        "size": {
+          "size": 44
+        }
+      }, {
+        "size": {
+          "size": 45
+        }
+      }]
+    },
+    {
+      "id": 4,
+      "name": "Calm and Casual",
+      "description": "The calm and casual shoe is perfect for someone who prioritizes both comfort and style. <br /> <br /> The shoe is light to wear and perfect for relaxing with friends.",
+      "path": "img/browse/boots/id-4/1.jpeg",
+      "price": 3100,
+      "stock": 2,
+      "type": "boots",
+      "trend": "gore-tex",
+      "sale": false,
+      "occasion": "travel",
+      "stars": 4.1,
+      "picturecollection": [{
+        "picture": {
+          "path": "img/browse/boots/id-4/1.jpeg"
+        }
+      }, {
+        "picture": {
+          "path": "img/browse/boots/id-4/2.jpeg"
+        }
+      }, {
+        "picture": {
+          "path": "img/browse/boots/id-4/3.jpeg"
+        }
+      }, {
+        "picture": {
+          "path": "img/browse/boots/id-4/4.jpeg"
+        }
+      }, {
+        "picture": {
+          "path": "img/browse/boots/id-4/5.jpeg"
+        }
+      }, {
+        "picture": {
+          "path": "img/browse/boots/id-4/6.jpeg"
+        }
+      }, {
+        "picture": {
+          "path": "img/browse/boots/id-4/7.jpeg"
+        }
+      }],
+      "colors": [{
+        "color": {
+          "color": "black"
+        }
+      }, {
+        "color": {
+          "color": "brown"
+        }
+      }],
+      "sizes": [{
+        "size": {
+          "size": 43
+        }
+      }, {
+        "size": {
+          "size": 44
+        }
+      }]
+    },
+    {
+      "id": 5,
+      "name": "Hardy Hiker",
+      "description": "This boot with its characteristic hard-worn look has a real industrial feel and offers the wearer a stylish and down-to-earth look.",
+      "path": "img/browse/boots/id-5/1.jpeg",
+      "price": 900,
+      "stock": 2,
+      "type": "boots",
+      "trend": "gore-tex",
+      "sale": false,
+      "occasion": "outdoors",
+      "stars": 4.2,
+      "picturecollection": [{
+        "picture": {
+          "path": "img/browse/boots/id-5/1.jpeg"
+        }
+      }, {
+        "picture": {
+          "path": "img/browse/boots/id-5/2.jpeg"
+        }
+      }, {
+        "picture": {
+          "path": "img/browse/boots/id-5/3.jpeg"
+        }
+      }, {
+        "picture": {
+          "path": "img/browse/boots/id-5/4.jpeg"
+        }
+      }, {
+        "picture": {
+          "path": "img/browse/boots/id-5/5.jpeg"
+        }
+      }, {
+        "picture": {
+          "path": "img/browse/boots/id-5/6.jpeg"
+        }
+      }, {
+        "picture": {
+          "path": "img/browse/boots/id-5/7.jpeg"
+        }
+      }, {
+        "picture": {
+          "path": "img/browse/boots/id-5/8.jpeg"
+        }
+      }, {
+        "picture": {
+          "path": "img/browse/boots/id-5/9.jpeg"
+        }
+      }, {
+        "picture": {
+          "path": "img/browse/boots/id-5/10.jpeg"
+        }
+      }, {
+        "picture": {
+          "path": "img/browse/boots/id-5/11.jpeg"
+        }
+      }, {
+        "picture": {
+          "path": "img/browse/boots/id-5/12.jpeg"
+        }
+      }, {
+        "picture": {
+          "path": "img/browse/boots/id-5/13.jpeg"
+        }
+      }, {
+        "picture": {
+          "path": "img/browse/boots/id-5/14.jpeg"
+        }
+      }],
+      "colors": [{
+        "color": {
+          "color": "black"
+        }
+      }],
+      "sizes": [{
+        "size": {
+          "size": 42
+        }
+      }, {
+        "size": {
+          "size": 44
+        }
+      }]
+    },
+    {
+      "id": 6,
+      "name": "Cool and Easy",
+      "description": "This high-heeled buckled ankle-length boot is made from sturdy leather fabric. <br /> <br /> It has a chunky appearance.",
+      "path": "img/browse/boots/id-6/1.jpeg",
+      "price": 3500,
+      "stock": 3,
+      "type": "boots",
+      "trend": "gore-tex",
+      "sale": false,
+      "occasion": "travel",
+      "stars": 4.9,
+      "picturecollection": [{
+        "picture": {
+          "path": "img/browse/boots/id-6/1.jpeg"
+        }
+      }, {
+        "picture": {
+          "path": "img/browse/boots/id-6/2.jpeg"
+        }
+      }, {
+        "picture": {
+          "path": "img/browse/boots/id-6/3.jpeg"
+        }
+      }, {
+        "picture": {
+          "path": "img/browse/boots/id-6/4.jpeg"
+        }
+      }, {
+        "picture": {
+          "path": "img/browse/boots/id-6/5.jpeg"
+        }
+      }, {
+        "picture": {
+          "path": "img/browse/boots/id-6/6.jpeg"
+        }
+      }, {
+        "picture": {
+          "path": "img/browse/boots/id-6/7.jpeg"
+        }
+      }, {
+        "picture": {
+          "path": "img/browse/boots/id-6/8.jpeg"
+        }
+      }, {
+        "picture": {
+          "path": "img/browse/boots/id-6/9.jpeg"
+        }
+      }, {
+        "picture": {
+          "path": "img/browse/boots/id-6/10.jpeg"
+        }
+      }, {
+        "picture": {
+          "path": "img/browse/boots/id-6/11.jpeg"
+        }
+      }, {
+        "picture": {
+          "path": "img/browse/boots/id-6/12.jpeg"
+        }
+      }, {
+        "picture": {
+          "path": "img/browse/boots/id-6/13.jpeg"
+        }
+      }, {
+        "picture": {
+          "path": "img/browse/boots/id-6/14.jpeg"
+        }
+      }, {
+        "picture": {
+          "path": "img/browse/boots/id-6/15.jpeg"
+        }
+      }],
+      "colors": [{
+        "color": {
+          "color": "black"
+        }
+      }, {
+        "color": {
+          "color": "brown"
+        }
+      }],
+      "sizes": [{
+        "size": {
+          "size": 43
+        }
+      }, {
+        "size": {
+          "size": 44
+        }
+      }]
+    },
+    {
+      "id": 7,
+      "name": "Fiery",
+      "description": "Made for a professional environment. It’s comfortable for long hours at the office. <br /> <br /> It is also waterproof.",
+      "path": "img/browse/dress-shoes/id-7/1.jpeg",
+      "price": 5500,
+      "stock": 2,
+      "type": "dress-shoes",
+      "trend": "pointy",
+      "sale": false,
+      "occasion": "work",
+      "stars": 4.7,
+      "picturecollection": [{
+        "picture": {
+          "path": "img/browse/dress-shoes/id-7/1.jpeg"
+        }
+      }, {
+        "picture": {
+          "path": "img/browse/dress-shoes/id-7/2.jpeg"
+        }
+      }, {
+        "picture": {
+          "path": "img/browse/dress-shoes/id-7/3.jpeg"
+        }
+      }, {
+        "picture": {
+          "path": "img/browse/dress-shoes/id-7/4.jpeg"
+        }
+      }],
+      "colors": [{
+        "color": {
+          "color": "black"
+        }
+      }],
+      "sizes": [{
+        "size": {
+          "size": 42
+        }
+      }, {
+        "size": {
+          "size": 43
+        }
+      }]
+    },
+    {
+      "id": 8,
+      "name": "Cold",
+      "description": "This low-heeled shoe has a modern appearance.  It is matte and is waterproof.",
+      "path": "img/browse/dress-shoes/id-8/1.jpeg",
+      "price": 4000,
+      "stock": 3,
+      "type": "dress-shoes",
+      "trend": "pointy",
+      "sale": false,
+      "occasion": "festivities",
+      "stars": 5,
+      "picturecollection": [{
+        "picture": {
+          "path": "img/browse/dress-shoes/id-8/1.jpeg"
+        }
+      }, {
+        "picture": {
+          "path": "img/browse/dress-shoes/id-8/2.jpeg"
+        }
+      }, {
+        "picture": {
+          "path": "img/browse/dress-shoes/id-8/3.jpeg"
+        }
+      }, {
+        "picture": {
+          "path": "img/browse/dress-shoes/id-8/4.jpeg"
+        }
+      }],
+      "colors": [{
+        "color": {
+          "color": "brown"
+        }
+      }],
+      "sizes": [{
+        "size": {
+          "size": 40
+        }
+      }, {
+        "size": {
+          "size": 41
+        }
+      }]
+    },
+    {
+      "id": 9,
+      "name": "Blizzard",
+      "description": "This shoe has a sleek appearance with a shiny style  It is waterproof and perfect for festivities.",
+      "path": "img/browse/dress-shoes/id-9/1.jpeg",
+      "price": 3500,
+      "stock": 1,
+      "type": "dress-shoes",
+      "trend": false,
+      "sale": 20,
+      "occasion": "work",
+      "stars": 4.1,
+      "picturecollection": [{
+        "picture": {
+          "path": "img/browse/dress-shoes/id-9/1.jpeg"
+        }
+      }, {
+        "picture": {
+          "path": "img/browse/dress-shoes/id-9/2.jpeg"
+        }
+      }, {
+        "picture": {
+          "path": "img/browse/dress-shoes/id-9/3.jpeg"
+        }
+      }, {
+        "picture": {
+          "path": "img/browse/dress-shoes/id-9/4.jpeg"
+        }
+      }],
+      "colors": [{
+        "color": {
+          "color": "black"
+        }
+      }],
+      "sizes": [{
+        "size": {
+          "size": 45
+        }
+      }]
+    },
+    {
+      "id": 10,
+      "name": "Snowstorm",
+      "description": "Modern look for when you want to stand out. They are perfect for any occasion. They are waterproof.",
+      "path": "img/browse/dress-shoes/id-10/1.jpeg",
+      "price": 2200,
+      "stock": 1,
+      "type": "dress-shoes",
+      "trend": false,
+      "sale": 40,
+      "occasion": "travel",
+      "stars": 4.9,
+      "picturecollection": [{
+        "picture": {
+          "path": "img/browse/dress-shoes/id-10/1.jpeg"
+        }
+      }, {
+        "picture": {
+          "path": "img/browse/dress-shoes/id-10/2.jpeg"
+        }
+      }],
+      "colors": [{
+        "color": {
+          "color": "black"
+        }
+      }],
+      "sizes": [{
+        "size": {
+          "size": 41
+        }
+      }]
+    },
+    {
+      "id": 11,
+      "name": "Palace",
+      "description": "Patterned shoes for work and festivities. Modern and sleek.",
+      "path": "img/browse/dress-shoes/id-11/1.jpeg",
+      "price": 3100,
+      "stock": 4,
+      "type": "dress-shoes",
+      "trend": "patterns",
+      "sale": false,
+      "occasion": "work",
+      "stars": 4.8,
+      "picturecollection": [{
+        "picture": {
+          "path": "img/browse/dress-shoes/id-11/1.jpeg"
+        }
+      }, {
+        "picture": {
+          "path": "img/browse/dress-shoes/id-11/2.jpeg"
+        }
+      }],
+      "colors": [{
+        "color": {
+          "color": "black"
+        }
+      }, {
+        "color": {
+          "color": "brown"
+        }
+      }],
+      "sizes": [{
+        "size": {
+          "size": 40
+        }
+      }, {
+        "size": {
+          "size": 41
+        }
+      }, {
+        "size": {
+          "size": 42
+        }
+      }, {
+        "size": {
+          "size": 43
+        }
+      }]
+    },
+    {
+      "id": 12,
+      "name": "Kingdom",
+      "description": "Comfortable and modern style. Perfect for festivities. Comfortable and waterproof.",
+      "path": "img/browse/dress-shoes/id-12/1.jpeg",
+      "price": 8000,
+      "stock": 1,
+      "type": "dress-shoes",
+      "trend": "patterns",
+      "sale": false,
+      "occasion": "festivities",
+      "stars": 4.7,
+      "picturecollection": [{
+        "picture": {
+          "path": "img/browse/dress-shoes/id-12/1.jpeg"
+        }
+      }, {
+        "picture": {
+          "path": "img/browse/dress-shoes/id-12/2.jpeg"
+        }
+      }, {
+        "picture": {
+          "path": "img/browse/dress-shoes/id-12/3.jpeg"
+        }
+      }, {
+        "picture": {
+          "path": "img/browse/dress-shoes/id-12/4.jpeg"
+        }
+      }, {
+        "picture": {
+          "path": "img/browse/dress-shoes/id-12/5.jpeg"
+        }
+      }],
+      "colors": [{
+        "color": {
+          "color": "black"
+        }
+      }, {
+        "color": {
+          "color": "brown"
+        }
+      }],
+      "sizes": [{
+        "size": {
+          "size": 44
+        }
+      }]
+    },
+    {
+      "id": 13,
+      "name": "Evil",
+      "description": "Patterns in front of the shoe that stands out. Perfect for every occasion.",
+      "path": "img/browse/dress-shoes/id-13/1.jpeg",
+      "price": 9900,
+      "stock": 1,
+      "type": "dress-shoes",
+      "trend": false,
+      "sale": false,
+      "occasion": "festivities",
+      "stars": 4.3,
+      "picturecollection": [{
+        "picture": {
+          "path": "img/browse/dress-shoes/id-13/1.jpeg"
+        }
+      }, {
+        "picture": {
+          "path": "img/browse/dress-shoes/id-13/2.jpeg"
+        }
+      }, {
+        "picture": {
+          "path": "img/browse/dress-shoes/id-13/3.jpeg"
+        }
+      }, {
+        "picture": {
+          "path": "img/browse/dress-shoes/id-13/4.jpeg"
+        }
+      }, {
+        "picture": {
+          "path": "img/browse/dress-shoes/id-13/5.jpeg"
+        }
+      }, {
+        "picture": {
+          "path": "img/browse/dress-shoes/id-13/6.jpeg"
+        }
+      }, {
+        "picture": {
+          "path": "img/browse/dress-shoes/id-13/7.jpeg"
+        }
+      }],
+      "colors": [{
+        "color": {
+          "color": "black"
+        }
+      }],
+      "sizes": [{
+        "size": {
+          "size": 44
+        }
+      }]
+    },
+    {
+      "id": 14,
+      "name": "King",
+      "description": "Brown leather with a shiny look. Perfect for any occasion.",
+      "path": "img/browse/dress-shoes/id-14/1.jpeg",
+      "price": 1500,
+      "stock": 2,
+      "type": "dress-shoes",
+      "trend": false,
+      "sale": false,
+      "occasion": "festivities",
+      "stars": 4,
+      "picturecollection": [{
+        "picture": {
+          "path": "img/browse/dress-shoes/id-14/1.jpeg"
+        }
+      }, {
+        "picture": {
+          "path": "img/browse/dress-shoes/id-14/2.jpeg"
+        }
+      }, {
+        "picture": {
+          "path": "img/browse/dress-shoes/id-14/3.jpeg"
+        }
+      }, {
+        "picture": {
+          "path": "img/browse/dress-shoes/id-14/4.jpeg"
+        }
+      }, {
+        "picture": {
+          "path": "img/browse/dress-shoes/id-14/5.jpeg"
+        }
+      }, {
+        "picture": {
+          "path": "img/browse/dress-shoes/id-14/6.jpeg"
+        }
+      }, {
+        "picture": {
+          "path": "img/browse/dress-shoes/id-14/7.jpeg"
+        }
+      }],
+      "colors": [{
+        "color": {
+          "color": "black"
+        }
+      }, {
+        "color": {
+          "color": "brown"
+        }
+      }],
+      "sizes": [{
+        "size": {
+          "size": 41
+        }
+      }, {
+        "size": {
+          "size": 43
+        }
+      }, {
+        "size": {
+          "size": 44
+        }
+      }]
+    },
+    {
+      "id": 15,
+      "name": "Frost",
+      "description": "Comfortable and soft. Perfect for travel and everyday.",
+      "path": "img/browse/loafers/id-15/1.jpeg",
+      "price": 2500,
+      "stock": 2,
+      "type": "loafers",
+      "trend": false,
+      "sale": 20,
+      "occasion": "travel",
+      "stars": 4.1,
+      "picturecollection": [{
+        "picture": {
+          "path": "img/browse/loafers/id-15/1.jpeg"
+        }
+      }, {
+        "picture": {
+          "path": "img/browse/loafers/id-15/2.jpeg"
+        }
+      }, {
+        "picture": {
+          "path": "img/browse/loafers/id-15/3.jpeg"
+        }
+      }, {
+        "picture": {
+          "path": "img/browse/loafers/id-15/4.jpeg"
+        }
+      }],
+      "colors": [{
+        "color": {
+          "color": "black"
+        }
+      }, {
+        "color": {
+          "color": "brown"
+        }
+      }],
+      "sizes": [{
+        "size": {
+          "size": 40
+        }
+      }, {
+        "size": {
+          "size": 45
+        }
+      }]
+    },
+    {
+      "id": 16,
+      "name": "Hello Monday",
+      "description": "One of our popular loafers. Perfect for every occasion. Very comfortable and soft.",
+      "path": "img/browse/loafers/id-16/1.jpeg",
+      "price": 900,
+      "stock": 6,
+      "type": "loafers",
+      "trend": false,
+      "sale": 40,
+      "occasion": "travel",
+      "stars": 4.9,
+      "picturecollection": [{
+        "picture": {
+          "path": "img/browse/loafers/id-16/1.jpeg"
+        }
+      }, {
+        "picture": {
+          "path": "img/browse/loafers/id-16/2.jpeg"
+        }
+      }, {
+        "picture": {
+          "path": "img/browse/loafers/id-16/3.jpeg"
+        }
+      }, {
+        "picture": {
+          "path": "img/browse/loafers/id-16/4.jpeg"
+        }
+      }],
+      "colors": [{
+        "color": {
+          "color": "black"
+        }
+      }, {
+        "color": {
+          "color": "brown"
+        }
+      }],
+      "sizes": [{
+        "size": {
+          "size": 42
+        }
+      }, {
+        "size": {
+          "size": 43
+        }
+      }, {
+        "size": {
+          "size": 44
+        }
+      }, {
+        "size": {
+          "size": 45
+        }
+      }]
+    }
+  ]
+}

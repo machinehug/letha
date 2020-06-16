@@ -1,0 +1,1541 @@
+/*By Victoria Charlotte Pettersen > github.com/machinehug & machinehug.com*/
+
+/* ==========================================================================
+   GLOBAL
+   ==========================================================================*/
+
+@import "https://fonts.googleapis.com/css?family=Inter&display=swap";
+@import "https://fonts.googleapis.com/css?family=Kanit&display=swap";
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  /*62.5% = 10px / 1rem*/
+  font-size: 62.5%;
+  /*body txt*/
+  font-family: Arial, Helvetica, sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+a {
+  color: #151515;
+}
+
+a:hover {
+  color: #151515;
+}
+
+p {
+  padding: 2rem;
+}
+
+.make-flex-row-wrap {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+.make-flex-column-wrap {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+}
+
+main {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  width: 100%;
+  padding: 1rem;
+}
+
+.max-width {
+  max-width: 170rem;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+button,
+.button {
+  background-color: #151515;
+  color: #FFF;
+  font-size: 1.8rem;
+  border-radius: 7px;
+  text-align: center;
+  cursor: pointer;
+  padding: 0.8rem 4rem;
+  margin: 0 auto;
+  border: 1px solid black;
+  margin-top: 1rem;
+}
+
+button a:hover {
+  text-decoration: none;
+}
+
+.icon,
+.icon a {
+  height: 2rem;
+  font-size: 2rem;
+}
+
+.icon:hover {
+  color: #151515;
+}
+
+.icon-search {
+  font-size: 1.6rem;
+}
+
+.icon-bigger-container {
+  width: 100%;
+  height: fit-content;
+  padding: 3rem 0 5rem 0;
+}
+
+.icon-bigger-container p {
+  margin: 0 1.2rem;
+  padding: 0;
+}
+
+.icon-bigger-container .icon-bigger {
+  height: 4rem;
+  font-size: 4rem;
+}
+
+.icon-bigger-container .icon-bigger:hover {
+  cursor: auto;
+}
+
+input,
+textarea {
+  padding: 8px 16px;
+  border-radius: 7px;
+  border: 1px solid rgba(170, 170, 170, 0.486);
+}
+
+.quantity-buynow-addtocart-container {
+  padding: 1rem;
+}
+
+.quantity-buynow-addtocart-container input,
+.quantity-buynow-addtocart-container button,
+.quantity-buynow-addtocart-container .button {
+  float: right;
+  width: 13rem;
+}
+
+.quantity-buynow-addtocart-container button,
+.quantity-buynow-addtocart-container .button {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.heading {
+  font-family: "Inter", sans-serif;
+  font-size: 4rem;
+  text-align: center;
+  font-weight: 600;
+}
+
+.subheading {
+  font-size: 1.8rem;
+  text-align: left;
+  font-family: "Kanit", sans-serif;
+}
+
+.justify-content-left {
+  justify-content: left;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.fake-link {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.fake-link-hover {
+  text-decoration: none;
+}
+
+.fake-link-hover:hover {
+  text-decoration: underline;
+}
+
+select {
+  border-radius: 15px;
+  background-color: #FFF;
+}
+
+.dropdown-style {
+  border: 1px solid rgba(170, 170, 170, 0.486);
+  padding-right: 1rem;
+  padding-left: 1rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: url(../img/other/arrowdown.png) 80%/1.6rem no-repeat;
+}
+
+.straight-dropdown {
+  border-radius: 0;
+}
+
+table {
+  width: 100%;
+}
+
+.text-align-left {
+  text-align: left;
+}
+
+.text-align-right {
+  text-align: right;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.cart-top-container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 70rem;
+  justify-content: space-around;
+  padding: 3rem 0;
+}
+
+.cart-top-container button {
+  background-color: #FFF;
+  color: #151515;
+  width: 20rem;
+  padding: 1rem 3rem;
+  margin-bottom: 2rem;
+}
+
+.cart-top-container button:active {
+  background-color: #151515;
+  color: #FFF;
+}
+
+.cart-top-container button:focus {
+  background-color: #151515;
+  color: #FFF;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+}
+
+.nav-mobile {
+  display: block !important;
+}
+
+.nav-desktop {
+  display: none !important;
+}
+
+/* ==========================================================================
+   LOGO
+   ==========================================================================*/
+
+.logo {
+  font-family: "Inter", sans-serif;
+}
+
+.logo:hover {
+  text-decoration: none;
+  color: #151515;
+}
+
+.logo-letha {
+  font-size: 2.5rem;
+}
+
+.logo-for-men {
+  font-size: 1.6rem;
+}
+
+/* ==========================================================================
+   HEADER
+   ==========================================================================*/
+
+header {
+  width: 100%;
+  height: 100%;
+  font-size: 1rem;
+  display: flex;
+  flex-flow: column wrap;
+}
+
+header .all-shoes {
+  border-top: 1px solid rgba(170, 170, 170, 0.486);
+  border-bottom: 1px solid rgba(170, 170, 170, 0.486);
+  margin: 0.5rem 0;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+header .header-top-container {
+  width: 100%;
+  height: 100%;
+  padding: 2rem;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+header .header-top-container .logo-container {
+  margin-right: auto;
+  margin-bottom: 2rem;
+}
+
+header .header-top-container .header-top-icons-right-container {
+  margin-left: auto;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+header .header-top-container .header-top-icons-right-container p {
+  padding: 0;
+}
+
+header .header-top-container .header-top-icons-right-container div {
+  width: fit-content;
+  margin-left: 1.3rem;
+}
+
+header .header-top-container .header-top-icons-right-container div .icon-account {
+  margin-left: 3rem;
+}
+
+header .header-top-container .header-top-icons-right-container .nav-heart:hover {
+  color: red;
+  cursor: pointer;
+}
+
+header nav {
+  border-top: 1px solid rgba(170, 170, 170, 0.486);
+  padding: 1rem 0;
+}
+
+header nav .category-container {
+  width: auto;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+header .header-bottom-container {
+  border-bottom: 1px solid rgba(170, 170, 170, 0.486);
+  border-top: 1px solid rgba(170, 170, 170, 0.486);
+  padding: 1rem 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+header .header-bottom-container .header-bottom-icons-left-container {
+  padding-right: 2rem;
+}
+
+header .header-bottom-container .header-bottom-icons-left-container i {
+  padding: 0 0.5rem;
+}
+
+header .home-search {
+  width: 25rem;
+  margin-right: 2rem;
+}
+
+.leather-shoes-text {
+  font-weight: normal;
+}
+
+.nav-link,
+.dropdown-item {
+  font-size: 1.6rem;
+}
+
+/* ==========================================================================
+  INDEX
+   ==========================================================================*/
+
+.index-wrapper {
+  margin: 0 auto;
+  max-width: 150rem;
+}
+
+.index-wrapper .index-top-wrapper {
+  justify-content: space-evenly;
+  padding-top: 1rem;
+}
+
+.index-wrapper .index-top-wrapper h1 {
+  font-size: 4rem;
+  font-weight: 600;
+}
+
+.index-wrapper .index-top-wrapper h2 {
+  max-width: 17rem;
+  font-size: 2.5rem;
+  font-weight: normal;
+  text-align: left;
+  padding-bottom: 4rem;
+}
+
+.index-top-img-1,
+.index-top-img-2 {
+  width: 100%;
+  margin-bottom: 3rem;
+}
+
+.index-top-img-1 {
+  max-width: 95rem;
+  content: url(../img/home-top/home-top-1.jpg);
+}
+
+.index-top-img-2 {
+  height: 40rem;
+  background: url(../img/home-top/home-top-2.jpg) no-repeat center;
+}
+
+.index-top-img-2 h3 {
+  margin: 0;
+  padding: 0;
+  font-size: 3rem;
+  color: #F8F8F8;
+  margin-bottom: 3rem;
+  text-shadow: 0px 0px 23px #151515;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.index-top-img-2 .shop-button {
+  margin-top: 2rem;
+  color: #FFF;
+}
+
+.index-top-img-2 .shop-button span {
+  font-size: 2rem;
+  color: #FFF;
+}
+
+.about-container {
+  padding: 0 1rem 3rem 1rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.about-container .about-letha-container,
+.about-container .about-leather-container {
+  max-width: 37rem;
+  text-align: left;
+  max-width: 50rem;
+}
+
+.about-container a {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.reviews-container {
+  padding: 9rem 0 15rem 0;
+}
+
+.reviews-container .reviews-img {
+  height: 100%;
+  width: 100%;
+  max-width: 100rem;
+  content: url(../img/reviews/reviews.jpg);
+  margin: 0 auto;
+}
+
+.reviews-container .reviews-text-container {
+  width: 100%;
+  max-width: 50rem;
+  padding-top: 3rem;
+}
+
+.reviews-container .reviews-text-container .review-stars-container {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+.reviews-container .reviews-text-container .review-stars-container .icon-review {
+  padding-top: 1.5rem;
+  font-size: 3rem;
+}
+
+.reviews-container .reviews-text-container .review-stars-container .review-stars-container div {
+  width: fit-content;
+}
+
+.reviews-container .reviews-text-container .review-button {
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.reviews-container .reviews-star-text,
+.reviews-container p {
+  font-weight: 600;
+}
+
+.reviews-container .based-on-text {
+  font-weight: normal;
+  font-size: 1.6rem;
+  padding-top: 1.5rem;
+}
+
+.reviews-container h3,
+.reviews-container h4 {
+  font-weight: normal;
+}
+
+.reviews-container h3 {
+  font-size: 3.5rem;
+}
+
+.reviews-container h4 {
+  padding: 1rem 0 4rem 0;
+  font-size: 3.5rem;
+}
+
+.reviews-container p {
+  padding-bottom: 2rem;
+  padding-top: 6rem;
+}
+
+/* ==========================================================================
+   BROWSE RESULTS
+   ==========================================================================*/
+
+.browse-dropdown {
+  border: 1px solid rgba(170, 170, 170, 0.486);
+  padding: 0.5rem 2rem;
+  margin: 1rem 2rem 0 2rem;
+  font-weight: 600;
+  width: 11rem;
+}
+
+.browse-container button {
+  width: 12rem;
+  padding: 1rem 3rem;
+}
+
+.browse-container h1 {
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.browse-container span {
+  font-size: 1.6rem;
+  font-weight: normal;
+  padding-left: 1rem;
+}
+
+.browse-container .browse-results-container {
+  max-width: 150rem;
+  height: auto;
+  padding: 2rem 0 10rem 0;
+  justify-content: space-evenly;
+}
+
+.browse-container .browse-results-container .browse-result-img {
+  width: 100%;
+  max-width: 30rem;
+}
+
+.browse-container .browse-results-container .browse-result-buttons {
+  justify-content: space-evenly;
+}
+
+.browse-container .browse-results-container .browse-result {
+  border: 1px solid rgba(128, 128, 128, 0.267);
+  margin: 2rem;
+  border-radius: 7px;
+}
+
+.browse-container .browse-results-container .browse-result a:hover {
+  text-decoration: none;
+}
+
+.browse-container .browse-results-container .browse-result .browse-shoe-name {
+  font-weight: 800;
+  padding: 0;
+  margin: 1rem 0;
+}
+
+.browse-container .browse-results-container .browse-result .shoe-price-btn {
+  background-color: #dddddd;
+  color: #151515;
+  font-weight: bolder;
+  border: 1px solid rgba(170, 170, 170, 0.486);
+}
+
+/* ==========================================================================
+   GIFTCARD
+   ==========================================================================*/
+
+.max-width-giftcard {
+  max-width: 100rem;
+}
+
+.giftcard-cart-title {
+  font-size: 2.5rem;
+}
+
+.giftcard-quantity {
+  align-self: center;
+}
+
+.giftcard-cart-wrapper {
+  border: 1px solid rgba(170, 170, 170, 0.486);
+}
+
+.giftcard-cart-wrapper .cart-giftcard-container-left .icon-bigger {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+.giftcard-cart-wrapper .cart-giftcard-container-left .cart-giftcard-icon-title-wrapper .cart-giftcard-title {
+  margin: 0;
+  font-weight: 800;
+}
+
+.giftcard-cart-wrapper .message-txt {
+  width: 100%;
+  border-top: 1px solid rgba(170, 170, 170, 0.486);
+}
+
+.giftcard-add-to-cart-btn {
+  margin-bottom: 4rem;
+}
+
+.cart-giftcard-container-right {
+  margin-left: 3rem;
+}
+
+.giftcard-title-container {
+  text-align: center;
+}
+
+.giftcard-title-container h1 {
+  text-align: center;
+  width: 100%;
+}
+
+.giftcard-container {
+  width: 100%;
+}
+
+.giftcard-container .error-amount {
+  padding-top: 1rem;
+}
+
+.giftcard-container .giftcard-input {
+  width: 100%;
+}
+
+.giftcard-container .giftcard-container-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 0 auto;
+}
+
+.giftcard-container .giftcard-container-flex section {
+  display: flex;
+  flex-flow: column wrap;
+  width: 100%;
+  max-width: 40rem;
+  padding-top: 2rem;
+}
+
+.giftcard-container .giftcard-container-flex section .giftcard-message-container textarea {
+  height: 50%;
+}
+
+.giftcard-container .giftcard-container-flex section .giftcard-add-info-container input {
+  min-width: 100%;
+}
+
+.giftcard-container .giftcard-container-flex section .buttons-container {
+  padding-top: 1rem;
+}
+
+.giftcard-container .giftcard-container-flex section .giftcard-buttons-container,
+.giftcard-container .giftcard-container-flex section .quantity-container,
+.giftcard-container .giftcard-container-flex section .giftcard-activation-container {
+  padding: 1rem;
+}
+
+.giftcard-container .giftcard-container-flex section .giftcard-buttons-container h3,
+.giftcard-container .giftcard-container-flex section .giftcard-buttons-container button,
+.giftcard-container .giftcard-container-flex section .giftcard-buttons-container input,
+.giftcard-container .giftcard-container-flex section .quantity-container h3,
+.giftcard-container .giftcard-container-flex section .quantity-container button,
+.giftcard-container .giftcard-container-flex section .quantity-container input,
+.giftcard-container .giftcard-container-flex section .giftcard-activation-container h3,
+.giftcard-container .giftcard-container-flex section .giftcard-activation-container button,
+.giftcard-container .giftcard-container-flex section .giftcard-activation-container input {
+  float: right;
+}
+
+.giftcard-container .giftcard-container-flex section .giftcard-buttons-container h3,
+.giftcard-container .giftcard-container-flex section .quantity-container h3,
+.giftcard-container .giftcard-container-flex section .giftcard-activation-container h3 {
+  font-size: 1.6rem;
+}
+
+.giftcard-container .giftcard-container-flex section .giftcard-buttons-container button,
+.giftcard-container .giftcard-container-flex section .quantity-container button,
+.giftcard-container .giftcard-container-flex section .giftcard-activation-container button {
+  padding-left: 0;
+  padding-right: 0;
+  width: 50%;
+}
+
+.giftcard-container .giftcard-container-flex section .giftcard-buttons-container .giftcard-activation-date,
+.giftcard-container .giftcard-container-flex section .quantity-container .giftcard-activation-date,
+.giftcard-container .giftcard-container-flex section .giftcard-activation-container .giftcard-activation-date {
+  background: none;
+  width: 18rem;
+}
+
+.giftcard-container .giftcard-container-flex section .giftcard-buttons-container .giftcard-activation-time,
+.giftcard-container .giftcard-container-flex section .quantity-container .giftcard-activation-time,
+.giftcard-container .giftcard-container-flex section .giftcard-activation-container .giftcard-activation-time {
+  width: 11rem;
+  margin-right: 1rem;
+}
+
+.giftcard-container .giftcard-container-flex section .giftcard-quantity-container {
+  display: flex;
+  float: right;
+  width: 20%;
+}
+
+.giftcard-container .giftcard-container-flex section .giftcard-quantity-container #giftcard-quantity {
+  justify-self: right;
+  width: 100%;
+}
+
+/* ==========================================================================
+   CUSTOMER SERVICE
+   ==========================================================================*/
+
+.customer-service-card-wrapper,
+.accordion {
+  width: 100%;
+}
+
+.customer-service-container {
+  width: 100%;
+  padding-bottom: 10rem;
+}
+
+.customer-service-container .customer-service-container-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 70rem;
+}
+
+.customer-service-container .customer-service-container-flex section {
+  display: flex;
+  flex-flow: column wrap;
+  padding-top: 2rem;
+}
+
+.customer-service-container .customer-service-container-flex .customer-service-topic-container,
+.customer-service-container .customer-service-container-flex .customer-service-bottom-text-container p {
+  text-align: left;
+}
+
+.customer-service-container .customer-service-container-flex .customer-service-bottom-phone-container i,
+.customer-service-container .customer-service-container-flex .customer-service-bottom-email-container i {
+  font-size: 4rem;
+  padding: 2rem 2rem 2rem 0;
+}
+
+.customer-service-container .customer-service-search-container h2 {
+  font-size: 1.6rem;
+}
+
+.customer-service-container .customer-service-search-container input {
+  width: 27rem;
+  margin-top: 2rem;
+}
+
+.customer-service-container .customer-service-topic-container h3 {
+  font-size: 1.6rem;
+}
+
+.customer-service-container h4 {
+  font-size: 2.2rem;
+}
+
+/* ==========================================================================
+   PRODUCT INFORMATION
+   ==========================================================================*/
+
+.sizechart {
+  padding: 0;
+}
+
+.remove-top-padding {
+  padding-top: 0;
+}
+
+.product-information-container {
+  justify-content: space-around;
+  margin: 0 auto;
+  padding-bottom: 8rem;
+  width: 100%;
+}
+
+.product-information-container div {
+  min-width: 100%;
+}
+
+.product-information-container .mobile-dropdown {
+  min-width: initial;
+  margin: 0 1rem 0 0;
+}
+
+.product-information-container .product-information-divs-right {
+  width: 100%;
+  min-width: 10rem;
+}
+
+.product-information-container .breadcrumbs {
+  flex: 100%;
+  text-align: left;
+  padding-bottom: 1rem;
+  position: relative;
+}
+
+.product-information-container .breadcrumbs ol {
+  list-style: none;
+  padding: 1rem 0 0 0;
+}
+
+.product-information-container .breadcrumbs ol li {
+  display: inline;
+}
+
+.product-information-container .breadcrumbs ol .active-shoe {
+  text-decoration: underline;
+}
+
+.product-information-container .product-information-shoe-name-star-container {
+  display: flex;
+  padding-bottom: 3rem;
+}
+
+.product-information-container .product-information-shoe-name {
+  padding: 0;
+  margin: 0;
+  font-size: 2.9rem;
+  font-weight: 600;
+}
+
+.product-information-container .star-cursor {
+  cursor: pointer;
+  display: flex;
+  margin: auto 0;
+  margin-left: 1rem;
+}
+
+.product-information-container .product-information-star-icon {
+  font-size: 2.5rem;
+  padding-left: 1rem;
+}
+
+.product-information-container .product-information-star-icon-text {
+  font-size: 1.6rem;
+  font-weight: 600;
+  padding-left: 0.5rem;
+}
+
+.product-information-container .product-information-shoe-picture-large {
+  padding-bottom: 1rem;
+  height: 45rem;
+}
+
+.product-information-container .all-pics-container {
+  width: 100%;
+  max-width: 30rem;
+  height: fit-content;
+  min-height: 55rem;
+}
+
+.product-information-container .product-information-more-shoe-pictures-container {
+  border: 1px solid rgba(170, 170, 170, 0.486);
+  width: 100%;
+  overflow-y: auto;
+  display: flex;
+  justify-content: center;
+  align-self: flex-end;
+}
+
+.product-information-container .product-information-more-shoe-pictures-container .product-information-more-shoe-picture {
+  width: 100px;
+  height: 100px;
+  height: 100%;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.product-information-container .product-information-more-shoe-pictures-container .product-information-more-shoe-pictures-results {
+  display: flex;
+  height: fit-content;
+}
+
+.product-information-container .shoe-size,
+.product-information-container .shoe-color {
+  margin: 0.5rem;
+}
+
+.product-information-container .shoe-size {
+  border: rgba(170, 170, 170, 0.486) 1px solid;
+  padding: 1rem;
+}
+
+.product-information-container .shoe-size:hover {
+  background-color: #151515;
+  color: #FFF;
+}
+
+.product-information-container .shoe-color {
+  border-radius: 100%;
+  padding: 2rem;
+}
+
+.product-information-container .link-container {
+  margin-top: 3rem;
+  text-align: right;
+}
+
+.product-information-container .product-information-button-container {
+  margin-top: auto;
+}
+
+.product-information-container .product-information-button-container .product-information-quantity {
+  margin-left: auto;
+  width: 7rem;
+}
+
+.product-information-container .product-information-button-container .product-information-button {
+  margin-top: 1.7rem;
+  min-width: 100%;
+}
+
+.product-information-container .product-information-title-container {
+  text-align: right;
+  padding-bottom: 3rem;
+}
+
+.product-information-container .product-information-title-price {
+  font-size: 4.6rem;
+  text-align: right;
+  padding-top: 2rem;
+}
+
+.product-information-container .product-information-title-days {
+  font-size: 1.6rem;
+  padding-top: 2rem;
+  text-align: right;
+}
+
+.product-information-container .product-information-title-stock {
+  font-size: 2.1rem;
+  text-align: right;
+  font-weight: 600;
+}
+
+.product-information-container .product-information-title-stock .heart {
+  font-size: 3rem;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+.product-information-container .product-information-title-stock .heart:hover {
+  color: red;
+}
+
+.about-shoe-container {
+  width: 35rem;
+  border: rgba(170, 170, 170, 0.356) solid 1px;
+  margin-top: 3rem;
+}
+
+.about-shoe-container .about-the-shoe {
+  padding: 1rem;
+}
+
+/* ==========================================================================
+   CART
+   ==========================================================================*/
+
+.cart-desktop {
+  display: none;
+}
+
+.cart-wrapper {
+  max-width: 120rem;
+  width: 100%;
+}
+
+.cart-input {
+  width: 10rem;
+}
+
+.memberstatus-dropdown-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.cart-title {
+  text-align: center;
+  font-size: 3.5rem;
+}
+
+.empty-cart-container {
+  max-width: 50rem;
+  padding: 1rem;
+  text-align: center;
+  margin: 0 auto;
+  min-width: 100%;
+}
+
+.empty-cart-container .empty-cart-text {
+  font-weight: normal;
+}
+
+.cart-container {
+  padding-top: 2rem;
+  padding-bottom: 5rem;
+  width: 100%;
+  min-width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.cart-container .cart-items-container {
+  padding: 1rem;
+  max-width: 100%;
+  margin: 0 auto;
+  width: 90rem;
+  border: none;
+}
+
+.cart-items-container-flex {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+
+.cart-container .cart-items-container .cart-items-container-inner {
+  width: auto;
+  height: 100%;
+  align-items: center;
+  padding: 1.5rem 0 1.5rem 0;
+  word-break: break-all;
+}
+
+.cart-container .cart-items-container .cart-items-container-inner .cart-shoe-name {
+  margin: 0 1.5rem;
+}
+
+.cart-container .cart-items-container .cart-items-container-inner .cart-remove {
+  padding: 0.7rem 1rem;
+  margin: 0 1.5rem;
+}
+
+.cart-container .cart-items-container .cart-items-container-inner .cart-item-price {
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+.cart-container .cart-items-container .cart-picture {
+  width: 100%;
+  max-width: 12rem;
+  height: 100%;
+}
+
+.cart-container .supported-payment-img {
+  content: url(../img/other/payments.png);
+  width: 25rem;
+  padding-bottom: 3rem;
+}
+
+.cart-container .cart-total-sum-text {
+  font-size: 2.8rem;
+  margin-right: auto;
+  font-weight: 800;
+}
+
+.cart-container .cart-subheading {
+  text-align: left;
+  font-size: 1.6rem;
+  margin-right: auto;
+}
+
+.cart-container .cart-total-sum-text-bottom {
+  display: flex;
+}
+
+.cart-container .cart-total-sum-text-bottom span {
+  margin-left: auto;
+}
+
+.cart-container .cart-giftcard-code {
+  margin-top: 1rem;
+}
+
+.cart-container .space-top {
+  padding-top: 2rem;
+}
+
+.cart-container .supported-payment-container .supported-payment-text {
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 5rem;
+}
+
+.cart-container .total-sum-container {
+  border-bottom: 1px solid rgba(170, 170, 170, 0.486);
+}
+
+.cart-container .total-sum-shipping {
+  padding-bottom: 1rem;
+}
+
+.cart-container .cart-total-sum-container {
+  padding: 0 1rem;
+  padding-top: 3rem;
+  width: 100%;
+  max-width: 27rem;
+  min-width: 27.5rem;
+  margin: 0 auto;
+}
+
+.cart-container .product-information-button {
+  margin: initial;
+}
+
+.cart-container .cart-shoe-name {
+  font-weight: 800;
+}
+
+.cart-container .cart-shoe-color-container {
+  min-width: 9rem;
+}
+
+.continue-button {
+  width: fit-content;
+  padding-right: 3rem;
+  padding-left: 3rem;
+  margin: 0 auto;
+  margin-top: 3rem;
+}
+
+.cart-choose {
+  height: 4rem;
+  margin: 0 1.5rem;
+  cursor: pointer;
+}
+
+.cart-margin {
+  margin-bottom: 1rem;
+}
+
+.cart-choose-color {
+  width: 10rem;
+}
+
+.cart-choose-quantity {
+  width: 5rem;
+  font-size: 1.6rem;
+}
+
+.cart-no-icon {
+  background: none;
+}
+
+.cart-mobile-dropdown-wrapper {
+  display: flex;
+  flex-flow: column wrap;
+  width: 10rem;
+}
+
+/* ==========================================================================
+   OCCASION, TRENDS AND SALE
+   ==========================================================================*/
+
+.browse-occasion-sale-trends-flex {
+  justify-content: space-between;
+  padding-bottom: 15rem;
+  max-width: 135rem;
+}
+
+.browse-occasion-sale-trends-container {
+  justify-items: space-evenly;
+  position: relative;
+  margin: 0 auto;
+}
+
+.browse-occasion-sale-trends-container .browse-occasion-sale-trends-picture {
+  width: 100%;
+  max-width: 60rem;
+  margin-top: 3rem;
+}
+
+.browse-occasion-sale-trends-container .sale-img {
+  max-width: 100rem;
+}
+
+.browse-occasion-sale-trends-container .browse-occasion-sale-trends-text-on-img {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  font-size: 6rem;
+  color: #FFF;
+  text-shadow: 1px 1px 1px rgba(170, 170, 170, 0.486);
+}
+
+.browse-occasion-sale-trends-container .home-text-we-have {
+  width: 100%;
+  text-align: center;
+  font-size: 6.5rem;
+}
+
+.browse-occasion-sale-trends-container .shop-button {
+  margin-top: 1.5rem;
+}
+
+.browse-occasion-sale-trends-just-browse {
+  width: 100%;
+  margin: 0 auto;
+  margin: 10rem 0;
+}
+
+.browse-occasion-sale-trends-just-browse h2 {
+  font-size: 3.5rem;
+}
+
+.occasion-festitivites-img {
+  content: url(../img/occasion/occasion-festivities.jpg);
+}
+
+.occasion-outdoors-img {
+  content: url(../img/occasion/occasion-outdoors.jpg);
+}
+
+.occasion-travel-img {
+  content: url(../img/occasion/occasion-travel.jpg);
+}
+
+.occasion-work-img {
+  content: url(../img/occasion/occasion-work.jpg);
+}
+
+.trend-patterns-img {
+  content: url(../img/trends/trend-patterns.jpg);
+}
+
+.trend-pointy-img {
+  content: url(../img/trends/trend-pointy.jpg);
+}
+
+.trend-goretex-img {
+  content: url(../img/trends/trends-goretex.jpg);
+}
+
+.trend-worn-img {
+  content: url(../img/trends/trend-worn.jpg);
+}
+
+.sale-60-img {
+  content: url(../img/sale/sale-60.jpg);
+}
+
+.sale-40-img {
+  content: url(../img/sale/sale-40.jpg);
+}
+
+.sale-20-img {
+  content: url(../img/sale/sale-20.jpg);
+}
+
+/* ==========================================================================
+   ACCOUNT
+   ==========================================================================*/
+
+.login-wrapper {
+  max-width: 45rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.login-wrapper .login-wrapper-inner {
+  width: 100%;
+}
+
+.delete-account-container button {
+  float: right;
+}
+
+.delete-account-container p {
+  text-align: left;
+}
+
+.account-sign-up-inner-container {
+  width: 100%;
+  max-width: 60rem;
+}
+
+.signup-address-input {
+  padding: 1rem;
+  width: 100%;
+  max-width: 9rem;
+}
+
+.address-small-container {
+  justify-content: space-between;
+}
+
+.account-contact-container {
+  text-align: center;
+  max-width: 45rem;
+}
+
+.account-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  max-width: 100rem;
+  border: 1px solid rgba(170, 170, 170, 0.486);
+  margin: 3rem 0 4rem 0;
+  padding: 2rem 0;
+}
+
+.account-container div .account-title {
+  padding-top: 0;
+  margin-top: 0;
+  text-align: center;
+}
+
+.account-container div .choose-a-password-txt {
+  margin-top: 2rem;
+}
+
+.account-container .icons-bigger-container {
+  padding: 2rem 0 0 0;
+}
+
+.account-container .icons-bigger-container i {
+  font-size: 3rem;
+}
+
+.account-container .icons-bigger-container div p {
+  padding: 1.5rem;
+}
+
+.account-container input {
+  font-size: 1.6rem;
+  margin: 1rem 0;
+}
+
+.account-container .form-error {
+  color: red;
+  font-weight: 600;
+  font-size: 1.2rem;
+  text-align: left;
+  margin-top: 0.3rem;
+  display: none;
+}
+
+.account-container .input-delete-account {
+  width: 100%;
+}
+
+.account-container .delete-account-are-you-sure {
+  border-bottom: 1px solid rgba(170, 170, 170, 0.486);
+  padding-bottom: 3rem;
+  text-align: center;
+}
+
+.account-container .delete-account-enter-text {
+  color: red;
+  font-size: 2.5rem;
+  font-weight: 800;
+  text-align: left;
+}
+
+.account-container .delete-account-bottom-container {
+  border-top: 1px solid rgba(170, 170, 170, 0.486);
+  padding-top: 3rem;
+  text-align: left;
+}
+
+.account-container .padding {
+  padding: 1rem;
+}
+
+.account-container .date {
+  font-weight: 800;
+}
+
+.account-container .padding account-order-container {
+  max-width: 10rem;
+}
+
+.account-container .search-account {
+  padding: 50rem;
+}
+
+.account-container .order-item {
+  cursor: pointer;
+}
+
+.account-container .order-item:active {
+  background-color: #151515;
+  color: #FFF;
+}
+
+.account-container .account-explanation {
+  text-align: center;
+}
+
+.create-account-accept-text {
+  text-align: right;
+  padding: 3rem 0 1rem 0;
+}
+
+.validation-create-account-success-txt {
+  color: red;
+  text-align: left;
+  font-weight: bold;
+}
+
+.email-message {
+  padding-bottom: 2rem;
+  text-align: left;
+}
+
+.home-text-we-have {
+  text-align: left;
+}
+
+.width-100 {
+  width: 100%;
+}
+
+.account-name {
+  padding: 0;
+  margin: 0;
+}
+
+.log-out-btn {
+  margin: 0 0 2rem 0;
+}
+
+.choose-a-password-txt {
+  margin-top: 2rem;
+}
+
+/* ==========================================================================
+   FOOTER
+   ==========================================================================*/
+
+footer {
+  background-color: #F8F8F8;
+  padding: 7rem 3rem 0 3rem;
+  width: 100%;
+}
+
+footer .copyright-container {
+  width: 100%;
+  text-align: center;
+  background-color: #F8F8F8;
+  padding: 4rem 2rem;
+  padding-top: 7rem;
+}
+
+footer .footer-responsive {
+  width: 100%;
+  max-width: 100rem;
+}
+
+footer .footer-responsive .footer-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+footer .footer-responsive .footer-container ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+footer .footer-responsive .footer-container .icon-help-footer {
+  font-size: 3.5rem;
+  margin-bottom: 3rem;
+}
+
+footer .footer-responsive .footer-container .icon-social-media {
+  margin: 1rem;
+  font-size: 3.5rem;
+  cursor: pointer;
+}
+
+footer .footer-responsive .footer-container .footer-list-container {
+  list-style-type: none;
+  text-align: left;
+}
+
+footer div {
+  width: fit-content;
+}
+
+.margin-bottom {
+  margin: 0 0 1rem 0;
+}
+
+.float-right {
+  margin: 0 0 1rem 0;
+  float: right;
+}
+
+/*# sourceMappingURL=main.css.map */
