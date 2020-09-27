@@ -1,3 +1,5 @@
+//Victoria Pettersen > github.com/machinehug & machinehug.com
+
 fetch("json/shoes.json")
     .then(handleResponse)
     .then(getCartDetails)
@@ -268,7 +270,7 @@ function getCartDetails(json) {
         removeButton.forEach(button => {
             button.addEventListener("click", removeFromCart);
         });
-        
+
         function removeFromCart() {
             document.location.href = "cart.html";
         };

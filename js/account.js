@@ -1,3 +1,5 @@
+//Victoria Pettersen > github.com/machinehug & machinehug.com
+
 const contactForm = document.querySelector("#contactForm");
 
 contactForm.addEventListener("submit", validateContactForm);

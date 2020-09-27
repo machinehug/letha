@@ -1,3 +1,5 @@
+//Victoria Pettersen > github.com/machinehug & machinehug.com
+
 const contactForm = document.querySelector("#contactForm");
 
 contactForm.addEventListener("submit", validateContactForm);
@@ -146,7 +148,7 @@ function validateContactForm(input) {
 
         const signUpButton = document.querySelector(".sign-up-button");
         signUpButton.parentNode.insertBefore(validationSuccessTag, signUpButton.nextSibling);
-        
+
         signUpButton.disabled = true;
     };
 };

@@ -1,3 +1,5 @@
+//Victoria Pettersen > github.com/machinehug & machinehug.com
+
 fetch("json/shoes.json")
     .then(handleResponse)
     .then(getShoes)

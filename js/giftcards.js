@@ -1,3 +1,5 @@
+//Victoria Pettersen > github.com/machinehug & machinehug.com
+
 const giftcardAmountInput = document.querySelector("#giftcard-amount");
 const hidden = document.querySelectorAll(".hidden");
 const required = document.querySelectorAll(".required");
